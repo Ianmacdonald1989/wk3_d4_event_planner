@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+		<title>My Event Planner</title>
+	</head>
+	<body>
+		<ul>
+			<header>
+				<li><a href="/events">Event Planner</a></li>
+			</header>
+		</ul>
+		
+		{% block content %}
+			
+		
+		
+		{% endblock %}
+		
+	</body>
+	<footer>
+		<p>&copy; CodeClan 2020</p> 
+	</footer>
+</html>
